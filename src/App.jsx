@@ -1,3 +1,4 @@
+import React from "react";
 import { ArrowRight, CheckCircle2, Globe2, MessageCircle, Search, ShieldCheck, Smartphone, Wrench } from "lucide-react";
 
 const services = [
@@ -128,35 +129,6 @@ export default function MaintenanceWebMaroc() {
         </div>
       </section>
 
-      <section className="bg-white py-16">
-        <div className="mx-auto grid max-w-7xl items-center gap-10 px-6 lg:grid-cols-[0.9fr_1.1fr] lg:px-8">
-          <div className="overflow-hidden rounded-3xl border border-slate-200 bg-slate-100 shadow-sm">
-            <img
-              src="/photo-profil.jpg"
-              alt="Développeur web au Maroc"
-              className="h-full min-h-[360px] w-full object-cover"
-            />
-          </div>
-          <div>
-            <p className="text-sm font-semibold uppercase tracking-wide text-slate-500">À propos</p>
-            <h2 className="mt-3 text-3xl font-bold tracking-tight">Un développeur web local, disponible pour les petites améliorations qui comptent.</h2>
-            <p className="mt-5 leading-8 text-slate-600">
-              Beaucoup d’entreprises ont déjà un site web, mais il manque souvent un suivi régulier : formulaire non testé, affichage mobile moyen, contenus anciens, bouton WhatsApp absent ou petites erreurs visibles.
-            </p>
-            <p className="mt-4 leading-8 text-slate-600">
-              Mon objectif est simple : vous aider à garder un site propre, fonctionnel et plus utile pour recevoir des demandes de clients.
-            </p>
-            <div className="mt-6 grid gap-3 sm:grid-cols-2">
-              {["Réponse simple et directe", "Interventions sans gros contrat", "Adapté aux PME locales", "Suivi mensuel possible"].map((item) => (
-                <div key={item} className="flex items-center gap-2 text-sm font-medium text-slate-700">
-                  <CheckCircle2 className="h-5 w-5" />
-                  {item}
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
 
       <section className="bg-white py-16">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
